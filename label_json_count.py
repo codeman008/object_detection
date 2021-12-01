@@ -13,7 +13,7 @@ import argparse
 
 
 parser=argparse.ArgumentParser()
-parser.add_argument('--input_path',type=str,help='json文件的路径',default='C:/zw/data/sku_data/50sku/50_test_lable/test/json/')
+parser.add_argument('--input_path',type=str,help='json文件的路径',default='json/')
 parser.add_argument('--csv',type=str,help='生成csv的名称',default='label_count_11-16.csv')
 args=parser.parse_args()
 path = args.input_path
